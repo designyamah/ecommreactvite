@@ -61,7 +61,7 @@ function App() {
       <>
         <Nav cart={cart} />
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/books" element={<Books books={books} />} />
           {/* dynamic id */}
           <Route
